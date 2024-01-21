@@ -64,9 +64,9 @@ const Header = ({ user }: PropsType) => {
           </dialog>
         </>
       ) : (
-        <Link to={"/login"}>
-          <FaSignInAlt />
-        </Link>
+        // <Link to={"/login"}>
+        //   <FaSignInAlt />
+        // </Link>
       )}
     </nav>
   );
