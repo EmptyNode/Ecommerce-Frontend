@@ -1,54 +1,52 @@
-# MERN E-COMMERCE SERVER 2024
+Welcome to the E-commerce Backend Project! This project is a robust and scalable backend solution for an e-commerce platform, built using Express.js, MongoDB, TypeScript, and Muttler middleware. It provides a powerful REST API to support both user and admin panels, offering comprehensive features including user authentication, product management, and detailed statistics on sales, customer growth, and more.
+Table of Contents
+Features
 
-Hi! My name is **Abhishek Nahar Singh**, I have created this tutorial to teach MERN Stack for free on YouTube.
+    Express.js: Utilizes the popular Node.js framework for building a robust and scalable backend.
+    MongoDB: Uses a MongoDB database for storing and managing product information, user data, and statistics.
+    TypeScript: Enhances code readability and maintainability by adding static typing to JavaScript.
+    REST API: Provides a comprehensive set of RESTful endpoints for various functionalities.
+    Muttler Middleware: Implements middleware for handling common tasks such as logging, error handling, and authentication.
 
-# Prerequisite
+Prerequisites
 
-1.  Must have basic knowledge of **Node**, **React**, **Express**, **MongoDB** . _I have made tutorial on each technology on YouTube , make sure to check it out_. **Links are Below respectively**
-2.  TypeScript - https://youtu.be/66_bET6sI20
-3.  Node - https://youtu.be/BSO9C8Z-YV8
-4.  React In One Video - https://youtu.be/b50zSyLiCYQ
-5.  React Full Course - https://www.youtube.com/playlist?list=PLt5mNkGuWcuWSUHxSzWP74IU9U4BTVLt0
-6.  Express - https://youtu.be/teipbke8c4A\
-7.  MongoDB - https://youtu.be/AYDP1S5BbTo
-8.  Master Backend In One Video - https://youtu.be/cGAdC4A5fF4
-9.  RestApi - https://youtu.be/AhCSfuG9Jxw _(optional)_
+Ensure you have the following installed on your machine:
 
-# Install Dependencies
+    Node.js
+    MongoDB
 
-**For Dev** - `npm i && npm run dev`
-**For Product** - `npm i && npm run preview`
+Installation
 
-## Env Variables
+    Clone the repository:
 
-Make Sure to Create a .env file in root directory and add appropriate variables in order to use the app.
+bash
 
-**Essential Variables**
+git clone https://github.com/your-username/e-commerce-backend.git
+cd e-commerce-backend
 
-VITE_FIREBASE_KEY= `from firebase`
+    Install dependencies:
 
-VITE_AUTH_DOMAIN= `from firebase`
+bash
 
-VITE_PROJECT_ID=`from firebase`
+npm install
 
-VITE_STORAGE_BUCKET=`from firebase`
+    Set up your environment variables by creating a .env file based on the provided .env.example.
 
-VITE_MESSAGING_SENDER_ID=`from firebase`
+    Start the server:
 
-VITE_APP_ID=`from firebase`
+bash
 
-VITE_SERVER=`Your Backend Server URl`
+npm start
 
-VITE_STRIPE_KEY=`Stripe Publishable Key`
+Usage
 
-_fill each filed with your info respectively_
+The backend server will be running at http://localhost:3000 by default. You can now start making requests to the available endpoints.
+Endpoints
 
-## Author
+Refer to the API documentation for detailed information on available endpoints and their functionalities.
+Authentication
 
-**Instagram** Click [Here](https://www.instagram.com/meabhisingh) **@meAbhiSingh**
+The project uses JSON Web Tokens (JWT) for authentication. Include the generated token in the Authorization header of your requests to access protected endpoints.
+Middleware
 
-**YouTube** Click [Here](https://www.youtube.com/channel/UCO7afj9AUo0zV69pqEYhcjw/) **6 Pack Programmer**
-
-**LinkedIn** Click [Here](https://in.linkedin.com/in/meabhisingh) **@meAbhiSingh**
-
-**Twitter** Click [Here](https://twitter.com/meAbhi_Singh) **@meAbhi_Singh**
+Muttler middleware is employed for handling various aspects of the application, including logging, error handling, and authentication. Refer to the middleware documentation for more details.
